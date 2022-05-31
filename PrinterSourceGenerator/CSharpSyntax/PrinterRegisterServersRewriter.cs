@@ -4,7 +4,7 @@ using System.Linq;
 using Microsoft.CodeAnalysis;
 using Microsoft.CodeAnalysis.CSharp;
 using Microsoft.CodeAnalysis.CSharp.Syntax;
-using static LightSourceGenerator.Common.CSharpSyntax.CSharpSyntaxHelper;
+using static LightSourceGenerator.Common.CSharpSyntax.ExpressionStatementSyntaxHelper;
 
 #nullable enable
 

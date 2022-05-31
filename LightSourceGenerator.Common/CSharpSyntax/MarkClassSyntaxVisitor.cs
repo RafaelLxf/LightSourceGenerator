@@ -83,7 +83,6 @@ namespace LightSourceGenerator.Common.CSharpSyntax
                 return false;
             }
 
-            var attributeLists = classDeclaration.AttributeLists;
             var attributes = declaredSymbol.GetAttributes();
 
             return attributes.Any(item => item.ToString()?.Equals(attributeFullName) ?? false);

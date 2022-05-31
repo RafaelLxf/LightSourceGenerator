@@ -1,0 +1,207 @@
+﻿Message: 
+TreeCount: 8
+
+Message: 
+declaredSymbol:LightSourceGenerator.TestDemo.Printers.GoodPrinter
+
+Message: 
+declaredSymbol:LightSourceGenerator.TestDemo.Printers.HelloPrinter
+
+Message: 
+namedTypeSymbols: 0
+
+Message: 
+TreeCount: 8
+
+Message: 
+symbolList:1
+
+Message: 
+symbolList:1
+
+Message: 
+symbolList:0
+
+Message: 
+symbolList:0
+
+Message: 
+symbolList:0
+
+Message: 
+symbolList:0
+
+Message: 
+symbolList:0
+
+Message: 
+symbolList:0
+
+Message: 
+namedTypeSymbols: 0
+
+Message: 
+TreeCount: 8
+
+Message: 
+classSymbols Count: 1
+symbols Count: 0
+
+Message: 
+classSymbols Count: 1
+symbols Count: 0
+
+Message: 
+namedTypeSymbols: 0
+
+Message: 
+TreeCount: 8
+
+Message: 
+classSymbols Count: 1
+symbols Count: 1
+
+Message: 
+classSymbols Count: 1
+symbols Count: 2
+
+Message: 
+namedTypeSymbols: 2
+
+Message: 
+TreeCount: 8
+
+Message: 
+classSymbols Count: 1
+symbols Count: 1
+
+Message: 
+classSymbols Count: 1
+symbols Count: 2
+
+Message: 
+namedTypeSymbols: 2
+
+Message: 
+TreeCount: 8
+
+Message: 
+namedTypeSymbols: 2
+
+Message: 
+nodes count: 1
+
+Message: 
+nodes count: 1
+
+Message: 
+newClass: using LightSourceGenerator.GeneratePrinter.CSharpSyntaxAttributes;
+
+#nullable enable
+
+namespace LightSourceGenerator.TestDemo.Printers
+{
+    [GenerateClass]
+    internal partial class PrinterProvider
+    {
+        /// <summary>
+        /// 由框架自动重写。
+        /// </summary>
+        partial void RegisterServers()
+        {
+            AddServer<LightSourceGenerator.TestDemo.Printers.GoodPrinter>();
+            AddServer<LightSourceGenerator.TestDemo.Printers.HelloPrinter>();
+        }
+    }
+}
+
+
+Message: 
+newClass: using LightSourceGenerator.GeneratePrinter.CSharpSyntaxAttributes;
+
+#nullable enable
+
+namespace LightSourceGenerator.TestDemo.Printers
+{
+    [GenerateClass]
+    internal partial class PrinterProvider
+    {
+        /// <summary>
+        /// 由框架自动重写。
+        /// </summary>
+        partial void RegisterServers()
+        {
+            AddServer<LightSourceGenerator.TestDemo.Printers.GoodPrinter>();
+            AddServer<LightSourceGenerator.TestDemo.Printers.HelloPrinter>();
+        }
+    }
+}
+
+
+Message: 
+newClass: using LightSourceGenerator.GeneratePrinter.CSharpSyntaxAttributes;
+
+#nullable enable
+
+namespace LightSourceGenerator.TestDemo.Printers
+{
+    [GenerateClass]
+    internal partial class PrinterProvider
+    {
+        /// <summary>
+        /// 由框架自动重写。
+        /// </summary>
+        partial void RegisterServers()
+        {
+            AddServer<LightSourceGenerator.TestDemo.Printers.GoodPrinter>();
+            AddServer<LightSourceGenerator.TestDemo.Printers.HelloPrinter>();
+        }
+    }
+}
+
+
+Message: 
+newClass: using LightSourceGenerator.GeneratePrinter.CSharpSyntaxAttributes;
+
+#nullable enable
+
+namespace LightSourceGenerator.TestDemo.Printers
+{
+    [GenerateClass]
+    internal partial class PrinterProvider
+    {
+        /// <summary>
+        /// 由框架自动重写。
+        /// </summary>
+        partial void RegisterServers()
+        {
+            AddServer<LightSourceGenerator.TestDemo.Printers.GoodPrinter>();
+            AddServer<LightSourceGenerator.TestDemo.Printers.HelloPrinter>();
+        }
+    }
+}
+
+
+Message: 
+newClass: using LightSourceGenerator.GeneratePrinter.CSharpSyntaxAttributes;
+
+#nullable enable
+
+namespace LightSourceGenerator.TestDemo.Printers
+{
+    [GenerateClass]
+    internal partial class PrinterProvider
+    {
+        /// <summary>
+        /// 由框架自动重写。
+        /// </summary>
+        partial void RegisterServers()
+        {
+            AddServer<LightSourceGenerator.TestDemo.Printers.GoodPrinter>();
+            AddServer<LightSourceGenerator.TestDemo.Printers.GooglePrinter>();
+            AddServer<LightSourceGenerator.TestDemo.Printers.HelloPrinter>();
+        }
+    }
+}
+
+

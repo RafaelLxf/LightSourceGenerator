@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "LightSourceGenerator.TestDemo/1.0.0": {
+        "runtime": {
+          "LightSourceGenerator.TestDemo.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LightSourceGenerator.TestDemo/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

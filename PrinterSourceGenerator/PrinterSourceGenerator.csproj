@@ -12,6 +12,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\LightSourceGenerator.Common\LightSourceGenerator.Common.csproj" />
+    <ProjectReference Include="..\LightSourceGenerator.GeneratePrinter\LightSourceGenerator.GeneratePrinter.csproj" />
   </ItemGroup>
 
 </Project>

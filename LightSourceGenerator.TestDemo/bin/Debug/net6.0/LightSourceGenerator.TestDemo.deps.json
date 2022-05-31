@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "LightSourceGenerator.TestDemo/1.0.0": {
+        "dependencies": {
+          "LightSourceGenerator.GeneratePrinter": "1.0.0"
+        },
+        "runtime": {
+          "LightSourceGenerator.TestDemo.dll": {}
+        }
+      },
+      "LightSourceGenerator.GeneratePrinter/1.0.0": {
+        "runtime": {
+          "LightSourceGenerator.GeneratePrinter.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LightSourceGenerator.TestDemo/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LightSourceGenerator.GeneratePrinter/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -2,7 +2,7 @@
 
 namespace PrinterSourceGenerator.Attributes
 {
-    internal class PrinterClassAttribute : Attribute
+    public class PrinterClassAttribute : Attribute
     {
     }
 }

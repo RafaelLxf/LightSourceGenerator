@@ -1,0 +1,135 @@
+{
+  "format": 1,
+  "restore": {
+    "I:\\tmp\\LightSourceGenerator\\LightSourceGenerator.TestDemo\\LightSourceGenerator.TestDemo.csproj": {}
+  },
+  "projects": {
+    "I:\\tmp\\LightSourceGenerator\\LightSourceGenerator.GeneratePrinter\\LightSourceGenerator.GeneratePrinter.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "I:\\tmp\\LightSourceGenerator\\LightSourceGenerator.GeneratePrinter\\LightSourceGenerator.GeneratePrinter.csproj",
+        "projectName": "LightSourceGenerator.GeneratePrinter",
+        "projectPath": "I:\\tmp\\LightSourceGenerator\\LightSourceGenerator.GeneratePrinter\\LightSourceGenerator.GeneratePrinter.csproj",
+        "packagesPath": "C:\\Users\\LanXiaofang\\.nuget\\packages\\",
+        "outputPath": "I:\\tmp\\LightSourceGenerator\\LightSourceGenerator.GeneratePrinter\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\LanXiaofang\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nexus.gz.cvte.cn:8080/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.CodeAnalysis.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.3, )"
+            },
+            "Microsoft.CodeAnalysis.CSharp": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[4.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "I:\\tmp\\LightSourceGenerator\\LightSourceGenerator.TestDemo\\LightSourceGenerator.TestDemo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "I:\\tmp\\LightSourceGenerator\\LightSourceGenerator.TestDemo\\LightSourceGenerator.TestDemo.csproj",
+        "projectName": "LightSourceGenerator.TestDemo",
+        "projectPath": "I:\\tmp\\LightSourceGenerator\\LightSourceGenerator.TestDemo\\LightSourceGenerator.TestDemo.csproj",
+        "packagesPath": "C:\\Users\\LanXiaofang\\.nuget\\packages\\",
+        "outputPath": "I:\\tmp\\LightSourceGenerator\\LightSourceGenerator.TestDemo\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\LanXiaofang\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nexus.gz.cvte.cn:8080/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "I:\\tmp\\LightSourceGenerator\\LightSourceGenerator.GeneratePrinter\\LightSourceGenerator.GeneratePrinter.csproj": {
+                "projectPath": "I:\\tmp\\LightSourceGenerator\\LightSourceGenerator.GeneratePrinter\\LightSourceGenerator.GeneratePrinter.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

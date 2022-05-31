@@ -1,8 +1,9 @@
 ﻿using System.Collections.Generic;
+using PrinterSourceGenerator.Printers;
 
 #nullable enable
 
-namespace PrinterSourceGenerator.Printers
+namespace Printer.Printers
 {
     internal partial class PrinterProvider
     {

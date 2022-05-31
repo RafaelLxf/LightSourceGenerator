@@ -1,0 +1,15 @@
+I:\tmp\LightSourceGenerator\LightSourceGenerator.TestDemo\obj\Debug\net5.0\LightSourceGenerator.TestDemo.GeneratedMSBuildEditorConfig.editorconfig
+I:\tmp\LightSourceGenerator\LightSourceGenerator.TestDemo\obj\Debug\net5.0\LightSourceGenerator.TestDemo.AssemblyInfoInputs.cache
+I:\tmp\LightSourceGenerator\LightSourceGenerator.TestDemo\obj\Debug\net5.0\LightSourceGenerator.TestDemo.AssemblyInfo.cs
+I:\tmp\LightSourceGenerator\LightSourceGenerator.TestDemo\obj\Debug\net5.0\LightSourceGenerator.TestDemo.csproj.CoreCompileInputs.cache
+I:\tmp\LightSourceGenerator\LightSourceGenerator.TestDemo\bin\Debug\net5.0\LightSourceGenerator.TestDemo.exe
+I:\tmp\LightSourceGenerator\LightSourceGenerator.TestDemo\bin\Debug\net5.0\LightSourceGenerator.TestDemo.deps.json
+I:\tmp\LightSourceGenerator\LightSourceGenerator.TestDemo\bin\Debug\net5.0\LightSourceGenerator.TestDemo.runtimeconfig.json
+I:\tmp\LightSourceGenerator\LightSourceGenerator.TestDemo\bin\Debug\net5.0\LightSourceGenerator.TestDemo.runtimeconfig.dev.json
+I:\tmp\LightSourceGenerator\LightSourceGenerator.TestDemo\bin\Debug\net5.0\LightSourceGenerator.TestDemo.dll
+I:\tmp\LightSourceGenerator\LightSourceGenerator.TestDemo\bin\Debug\net5.0\ref\LightSourceGenerator.TestDemo.dll
+I:\tmp\LightSourceGenerator\LightSourceGenerator.TestDemo\bin\Debug\net5.0\LightSourceGenerator.TestDemo.pdb
+I:\tmp\LightSourceGenerator\LightSourceGenerator.TestDemo\obj\Debug\net5.0\LightSourceGenerator.TestDemo.dll
+I:\tmp\LightSourceGenerator\LightSourceGenerator.TestDemo\obj\Debug\net5.0\ref\LightSourceGenerator.TestDemo.dll
+I:\tmp\LightSourceGenerator\LightSourceGenerator.TestDemo\obj\Debug\net5.0\LightSourceGenerator.TestDemo.pdb
+I:\tmp\LightSourceGenerator\LightSourceGenerator.TestDemo\obj\Debug\net5.0\LightSourceGenerator.TestDemo.genruntimeconfig.cache

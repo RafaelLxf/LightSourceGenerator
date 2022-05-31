@@ -1,19 +1,24 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using LightSourceGenerator.Common.CSharpSyntax;
+﻿using LightSourceGenerator.Common.CSharpSyntax;
 using Microsoft.CodeAnalysis;
 using Microsoft.CodeAnalysis.CSharp;
 using Microsoft.CodeAnalysis.CSharp.Syntax;
 using PrinterSourceGenerator.Attributes;
 using PrinterSourceGenerator.CSharpSyntax;
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
 
 namespace Printer
 {
     internal class Program
     {
         static void Main(string[] args)
+        {
+
+        }
+
+        private void TestMethod()
         {
             var reader = File.OpenText(@"I:\tmp\LightSourceGenerator\PrinterSourceGenerator\Printers\GoodPrinter.cs");
             var syntaxTree = CSharpSyntaxTree.ParseText(reader.ReadToEnd());

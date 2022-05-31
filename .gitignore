@@ -1,0 +1,12 @@
+﻿################################################################################
+# 此 .gitignore 文件已由 Microsoft(R) Visual Studio 自动创建。
+################################################################################
+
+/LightSourceGenerator/obj
+/.vs/LightSourceGenerator/v17
+/LightSourceGenerator.Common/bin/Debug/net5.0
+/LightSourceGenerator.Common/obj/Debug/net5.0
+/PrinterSourceGenerator/bin/Debug/net5.0
+/PrinterSourceGenerator/obj/Debug/net5.0
+/LightSourceGenerator.Common/obj
+/LightSourceGenerator.GeneratePrinter/obj
