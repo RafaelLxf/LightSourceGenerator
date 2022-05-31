@@ -4,7 +4,10 @@ using Microsoft.CodeAnalysis.CSharp.Syntax;
 
 namespace LightSourceGenerator.Common.CSharpSyntax
 {
-    public class CSharpSyntaxHelper
+    /// <summary>
+    /// 表达式声明帮助类。
+    /// </summary>
+    public class ExpressionStatementSyntaxHelper
     {
         /// <summary>
         /// 创建一个没有参数的泛型方法调用语句。
