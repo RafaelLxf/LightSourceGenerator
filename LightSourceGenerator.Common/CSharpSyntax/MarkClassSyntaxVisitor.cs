@@ -14,15 +14,15 @@ namespace LightSourceGenerator.Common.CSharpSyntax
     /// </summary>
     public class MarkClassSyntaxVisitor
     {
-        public MarkClassSyntaxVisitor(SemanticModel model)
+        public MarkClassSyntaxVisitor(SemanticModel semanticModel)
         {
-            Model = model;
+            SemanticModel = semanticModel;
         }
 
         /// <summary>
         /// 语义模型。
         /// </summary>
-        public SemanticModel Model { get; }
+        public SemanticModel SemanticModel { get; }
 
         /// <summary>
         /// 获取标记类型。
@@ -36,7 +36,7 @@ namespace LightSourceGenerator.Common.CSharpSyntax
                 throw new ArgumentException($"Argument {attributeFullName} must be a valid value.");
             }
 
-            var root = CSharpExtensions.GetCompilationUnitRoot(Model.SyntaxTree);
+            var root = CSharpExtensions.GetCompilationUnitRoot(SemanticModel.SyntaxTree);
             var classDeclarations = root.DescendantNodes().OfType<ClassDeclarationSyntax>();
             var declarationList = new List<ClassDeclarationSyntax>();
 
@@ -76,7 +76,7 @@ namespace LightSourceGenerator.Common.CSharpSyntax
         /// <returns>如果类型被标记返回 true，否则返回 false。</returns>
         private bool IsMarkClass(ClassDeclarationSyntax classDeclaration, string attributeFullName)
         {
-            ISymbol? declaredSymbol = Model.GetDeclaredSymbol(classDeclaration);
+            ISymbol? declaredSymbol = SemanticModel.GetDeclaredSymbol(classDeclaration);
 
             if (declaredSymbol is null)
             {
